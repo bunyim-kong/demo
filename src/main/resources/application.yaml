@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_db
+    username: yimm
+    password: Yim911$$&
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
